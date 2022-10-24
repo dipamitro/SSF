@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="1115.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication5.AdminHomePageController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="-13.0" prefHeight="139.0" prefWidth="1125.0" style="-fx-background-color: #175ac5;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="SPECIAL SECURITY FORCE">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="We Promise">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="14.0" layoutY="146.0" prefHeight="441.0" prefWidth="214.0" spacing="9.0" style="-fx-alignment: #4586e7;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#addAgent" prefHeight="39.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Add Agent" textFill="WHITE" />
+            <Button mnemonicParsing="false" onAction="#showAllAgentinfo" prefHeight="42.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Show All Agent" textFill="WHITE" />
+            <Button mnemonicParsing="false" onAction="#addAgentSecdule" prefHeight="36.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Add Agents Schedule" textFill="WHITE" />
+            <Button mnemonicParsing="false" onAction="#notice" prefHeight="39.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Notice" textFill="WHITE" />
+            <Button fx:id="emergengy" mnemonicParsing="false" onAction="#emergemcy" prefHeight="41.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Emergency Message" textFill="#fff9f9" />
+            <Button fx:id="chart" mnemonicParsing="false" onAction="#chartdtails" prefHeight="38.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Chart" textFill="WHITE" />
+            <Button fx:id="leave" mnemonicParsing="false" onAction="#leaveApplication" prefHeight="38.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Leave Application" textFill="#fff4f4" />
+            <Text fill="#e12222" strokeType="OUTSIDE" strokeWidth="0.0" text="           Urgent Message Below" wrappingWidth="206.93310546875">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Button fx:id="feedback" mnemonicParsing="false" prefHeight="55.0" prefWidth="214.0" style="-fx-background-color: yellow;" text="Principle Feedback" textFill="#da1616" />
+            <Button fx:id="location" mnemonicParsing="false" prefHeight="41.0" prefWidth="209.0" style="-fx-background-color: #4586e7;" text="Principle Location" textFill="WHITE" />
+         </children>
+      </VBox>
+      <VBox fx:id="mainContent" alignment="CENTER" layoutX="247.0" layoutY="156.0" prefHeight="481.0" prefWidth="825.0" />
+      <Button layoutX="160.0" layoutY="606.0" mnemonicParsing="false" onAction="#previousSceneButtonOnClickk" text="Logout" />
+      <Button layoutX="14.0" layoutY="606.0" mnemonicParsing="false" onAction="#previousSceneButtonOnClick" text="Previous" />
+   </children>
+</AnchorPane>

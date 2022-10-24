@@ -1,0 +1,56 @@
+There are pre-existing files as follows:
+
+
+-----------------------------------Agents.txt-----------------------------------
+agentId
+agentType
+dateOfJoining
+salary
+agentId
+agentType
+dateOfJoining
+salary
+agentId
+agentType
+dateOfJoining
+salary
+etc...
+-----------------------------------------------------------------------------------
+
+
+Types of agents are stored in another file as follows
+
+
+-----------------------------------AgentTypes.txt--------------------------------
+Comando,CyberAgent, CrimeSceneExpert, ExplosiveExpert
+-----------------------------------------------------------------------------------
+
+
+class SceneController ...{
+//There is a TableView (@FXML typeTV) whose rows 
+//will be pre-loaded by the content of "AgentTypes.txt"
+
+
+//there is another TableView (@FXML agentTV) to represent Agent rows 
+//from Agents.txt, add necessary TableColumns to your TableView as needed
+
+
+@FXML private Label resultLabel;
+@FXML private TextArea resultTextArea;
+@FXML private Button showButton;
+
+
+@Override public void initialize(){
+//write necessary code
+}
+
+public void showButtonOnClick(...){
+//clicking this button will calculate average salary (using agentTV)
+//of the selected agent type (from typeTV)
+//and show it in resultLabel
+
+
+//It will also show total price for each agent type in a resultTextArea 
+//line by line
+}
+}

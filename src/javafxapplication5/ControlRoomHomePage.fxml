@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="1104.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication5.ControlRoomHomePageController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="-13.0" prefHeight="149.0" prefWidth="1125.0" style="-fx-background-color: #175ac5;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="SPECIAL SECURITY FORCE">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="We Promise">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="14.0" layoutY="136.0" prefHeight="446.0" prefWidth="214.0" spacing="9.0" style="-fx-alignment: #4586e7;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#emergemcy" prefHeight="54.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Emergency Message" textFill="#fff9f9" />
+            <Button mnemonicParsing="false" onAction="#addAgentSecdule" prefHeight="51.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Notice" textFill="WHITE" />
+            <Button mnemonicParsing="false" onAction="#leaveApplication" prefHeight="50.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Meet Schedule" textFill="#fff4f4" />
+            <Button mnemonicParsing="false" onAction="#showAllAgentinfo" prefHeight="52.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Contact to Admin" textFill="WHITE" />
+            <Button mnemonicParsing="false" onAction="#schedule" prefHeight="46.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Your Schedule" textFill="WHITE" />
+            <Button mnemonicParsing="false" onAction="#notice" prefHeight="50.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Contact to Intelligence Bureau" textFill="WHITE" />
+            <Button mnemonicParsing="false" onAction="#addAgent" prefHeight="57.0" prefWidth="222.0" style="-fx-background-color: #4586e7;" text="Principle Update" textFill="WHITE" />
+         </children>
+      </VBox>
+      <VBox fx:id="mainContent" alignment="CENTER" layoutX="249.0" layoutY="149.0" prefHeight="481.0" prefWidth="825.0" />
+      <Button layoutX="14.0" layoutY="579.0" mnemonicParsing="false" onAction="#back" prefHeight="46.0" prefWidth="214.0" style="-fx-background-color: #4586e7;" text="Back" />
+   </children>
+</AnchorPane>

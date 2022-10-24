@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication5.AllAgentController">
+   <children>
+      <TableView fx:id="agentTable" prefHeight="400.0" prefWidth="626.0">
+        <columns>
+          <TableColumn fx:id="nameColl" prefWidth="141.0" text="Name" />
+          <TableColumn fx:id="idColl" prefWidth="142.0" text="Id" />
+            <TableColumn fx:id="salaryColl" prefWidth="132.0" text="Salary" />
+            <TableColumn fx:id="phoneColl" prefWidth="182.0" text="Phone" />
+        </columns>
+         <VBox.margin>
+            <Insets left="4.0" />
+         </VBox.margin>
+      </TableView>
+   </children>
+</VBox>

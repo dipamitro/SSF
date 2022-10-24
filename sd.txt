@@ -1,0 +1,8 @@
+void fn1(){
+String fn2(){
+	return "Hello World";
+}
+void fn1(){
+	String str = fn2();
+
+}

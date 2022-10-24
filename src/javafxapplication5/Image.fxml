@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="363.0" prefWidth="775.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication5.Image1Controller">
+   <bottom>
+      <AnchorPane prefHeight="63.0" prefWidth="775.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="422.0" layoutY="17.0" mnemonicParsing="false" onAction="#nextButtonOnClick" style="-fx-background-color: #3DBE29;" text="Next" textFill="WHITE" />
+            <Button layoutX="367.0" layoutY="17.0" mnemonicParsing="false" onAction="#backButtonOnClick" style="-fx-background-color: #3DBE29;" text="Back" textFill="WHITE" />
+            <Button layoutX="293.0" layoutY="17.0" mnemonicParsing="false" onAction="#previousButtonOnClick" style="-fx-background-color: #3DBE29;" text="Previous" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </bottom>
+   <center>
+      <ImageView fitHeight="309.0" fitWidth="776.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@banner2.jpg" />
+         </image>
+      </ImageView>
+   </center>
+</BorderPane>

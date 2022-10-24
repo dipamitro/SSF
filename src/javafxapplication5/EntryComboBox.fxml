@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="571.0" prefWidth="1067.0" style="-fx-background-color: #120E43;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication5.EntryComboBoxxController">
+   <children>
+      <Label layoutX="318.0" layoutY="396.0" prefHeight="36.0" prefWidth="113.0" text="Yor are a" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboBox" layoutX="459.0" layoutY="398.0" onAction="#comboBoxIsUpdate" prefWidth="150.0" />
+      <Button layoutX="551.0" layoutY="449.0" mnemonicParsing="false" onAction="#saveButton" text="Save" />
+      <Label layoutX="274.0" layoutY="14.0" prefHeight="68.0" prefWidth="553.0" text="Welcome to Our Journey" textFill="#eec573">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <Text layoutX="188.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Special Security Force" wrappingWidth="372.6708984375">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text layoutX="215.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Responsibility" wrappingWidth="291.9999974966049">
+         <font>
+            <Font name="Times New Roman" size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="103.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="490.6708984375" />
+      <TextArea layoutX="102.0" layoutY="108.0" prefHeight="268.0" prefWidth="862.0" />
+      <Text layoutX="393.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Responsibility">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="353.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Safety Is Our ">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Text>
+      <Text fill="#0015ff" layoutX="343.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Special Security Force" wrappingWidth="379.6708984375">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
